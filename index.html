@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile | Srishti</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell" id="home">
+      <header class="topbar">
+        <a class="brand" href="#home">Srishti</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="hero-card">
+          <div class="avatar" aria-hidden="true"><span>S</span></div>
+          <p class="eyebrow">Personal Profile Website</p>
+          <h1>Srishti</h1>
+          <p class="role">Student | Web Development Learner</p>
+          <p class="lead">I like keeping things simple, useful, and easy to read. This profile page gives a clean overview of who I am, what I know, and how to reach me.</p>
+          <div class="hero-actions">
+            <a href="#about" class="primary-btn">View Profile</a>
+            <a href="#contact" class="secondary-btn">Contact Details</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="panel">
+          <p>I am a motivated learner who enjoys building simple web pages and improving my skills step by step. I focus on clean design, readable content, and mobile-friendly layouts.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="panel grid-panels">
+          <div class="skill-group">
+            <h3>Web Technologies</h3>
+            <div class="chip-row">
+              <span class="chip">HTML/CSS</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Soft Skills</h3>
+            <div class="chip-row">
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Communication</span>
+              <span class="chip">Team Work</span>
+              <span class="chip">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="timeline-icon" aria-hidden="true">🎓</div>
+            <div>
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p class="muted">University of Technology</p>
+              <p class="muted">2019 - 2023 | GPA: 3.8/4.0</p>
+              <p>Relevant coursework: Data Structures, Algorithms, Web Development, Database Management, Software Engineering, Artificial Intelligence.</p>
+            </div>
+          </article>
+
+          <article class="timeline-card">
+            <div class="timeline-icon" aria-hidden="true">🎓</div>
+            <div>
+              <h3>High School Diploma</h3>
+              <p class="muted">Central High School</p>
+              <p class="muted">2015 - 2019 | Honor Roll</p>
+              <p>Active member of the Computer Science Club and Math Olympiad team.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="contact">
+        <h2 class="section-title">Contact Details</h2>
+        <div class="panel contact-panel">
+          <p class="contact-note">I’m open to opportunities, projects, and collaboration. Feel free to reach out.</p>
+          <div class="contact-grid">
+            <div>
+              <span>Email</span>
+              <strong>srishti.profile@example.com</strong>
+            </div>
+            <div>
+              <span>Phone</span>
+              <strong>+91 8881617656</strong>
+            </div>
+            <div>
+              <span>Location</span>
+              <strong>India</strong>
+            </div>
+            <div>
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/srishti</strong>
+            </div>
+          </div>
+          <button id="copy-contact" class="primary-btn copy-btn">Copy contact info</button>
+          <p id="copy-status" class="copy-status"></p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>Designed for Task 1 submission.</p>
+        <p>© <span id="year"></span> Srishti</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
